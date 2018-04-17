@@ -1,3 +1,9 @@
+/**
+ * 递归， 二分折半， 比如求3的4次方， 可以拆成3的2次方相乘； 3 的5次就是3 ^ 2 相乘再乘2
+ * https: //www.cnblogs.com/Liok3187/p/4601161.html
+ * @param {*} x 
+ * @param {*} n 
+ */
 var myPow = function (x, n) {
     if (n >= 0) {
         return pow(Math.abs(n));
@@ -19,5 +25,5 @@ var myPow = function (x, n) {
             return tmp * tmp;
         }
     }
-    
+
 }
